@@ -38,4 +38,23 @@ This case study is based on the very famous dataset in machine learning. The tit
 
 - Deploying the best model in production
 
+## Reading the Data
 
+The data has one file "TitanicSurvivalData.csv". This file contains 891 passenger details.
+
+### Data Description
+
+The business meaning of each column in the data is as below:
+
+- **PassengerId**: The id for each passenger
+- **Survived**: Whether the passenger survived or not? 1=Survived, 0=Died
+- **Pclass**: The travel class of the passenger
+- **Name**: Name of the passenger
+- **Sex**: The genger of the passenger
+- **Age**: The Age of the passenger
+- **SibSp**: Number of Siblings/Spouses Aboard
+- **Parch**: Number of Parents/Children Aboard
+- **Ticket**: The ticket number of the passenger
+- **Fare**: The amount of fare paid by the passenger
+- **Cabin**: The cabin number allotted
+- **Embarked**: Port of Embarkation \(C = Cherbourg; Q = Queenstown; S = Southampton\)
